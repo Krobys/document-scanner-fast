@@ -10,7 +10,7 @@
 
 **Document Scanner** is an Android library (kotlin based) for scanning documents based on [CameraX API](https://developer.android.com/training/camerax) and a tiny version of [OpenCV](https://opencv.org).
 
-**This library was taken and modified from [Document-Scanning-Android-SDK](https://github.com/zynkware/Document-Scanning-Android-SDK).
+This library was **taken and modified** from [Document-Scanning-Android-SDK](https://github.com/zynkware/Document-Scanning-Android-SDK).
 ### Features
 - tiny version of OpenCV 4.4.0:
 	- armeabi-v7a: **3.1 MB** (original: 10.1 MB)
