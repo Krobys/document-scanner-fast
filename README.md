@@ -1,7 +1,7 @@
 # Document Scanner with tiny OpenCV
 
 <div align="center">
-    <img src="example1.gif"height="500" />
+    <video src="example1.mp4" height="500" />
 </div>
 
 
