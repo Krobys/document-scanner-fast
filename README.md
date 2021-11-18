@@ -1,7 +1,9 @@
 # Document Scanner with tiny OpenCV
 
 <div align="center">
-    <video src="example1.mp4" height="500" />
+<video height="500">
+	 <source src="example1.mp4" />
+<video/>
 </div>
 
 
