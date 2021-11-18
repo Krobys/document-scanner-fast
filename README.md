@@ -1,13 +1,6 @@
 # Document Scanner with tiny OpenCV
 
-<div align="center">
-<video height="500">
-	 <source src="example1.mp4" />
-<video/>
-</div>
-
-
-
+https://user-images.githubusercontent.com/48987746/142425426-cb0cf80b-602f-4b6f-b629-e61705f490be.mp4
 
 **Document Scanner** is an Android library (kotlin based) for scanning documents based on [CameraX API](https://developer.android.com/training/camerax) and a tiny version of [OpenCV](https://opencv.org).
 
