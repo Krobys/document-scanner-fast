@@ -1,11 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'maven-publish'
 
 group="com.krobys"
 
-def libraryVersionCode = 8
-def libraryVersionName = "1.1.5"
+def libraryVersionCode = 103
+def libraryVersionName = "1.0.3"
 
 android {
     compileSdkVersion 31
@@ -63,6 +64,22 @@ dependencies {
     implementation 'androidx.exifinterface:exifinterface:1.3.3'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2-native-mt'
     implementation 'id.zelory:compressor:3.0.1'
+}
+
+project.afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                artifact androidSourcesJar
+
+                // values used for local maven repo, jitpack uses github release:
+                groupId 'com.github.krobys'
+                artifactId 'Fast-Document-Scanner'
+                version '1.0.3'
+            }
+        }
+    }
 }
 
 task sourceJar(type: Jar) {
