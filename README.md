@@ -2,7 +2,6 @@
 
 <div align="center">
     <img src="example1.gif"height="500" />
-    <img src="example2.gif"height="500" />
 </div>
 
 
