@@ -44,7 +44,7 @@ in app build.gradle:
 	
 	dependencies {
     	    ...
-	    implementation 'com.github.zynkware:Document-Scanning-Android-SDK:1.0.1'
+	    implementation 'com.github.Krobys:document-scanner-fast:1.0.0'
 	}
 	
 ### Usage
