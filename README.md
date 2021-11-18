@@ -10,6 +10,7 @@
 
 **Document Scanner** is an Android library (kotlin based) for scanning documents based on [CameraX API](https://developer.android.com/training/camerax) and a tiny version of [OpenCV](https://opencv.org).
 
+**This library was taken and modified from [Document-Scanning-Android-SDK](https://github.com/zynkware/Document-Scanning-Android-SDK).
 ### Features
 - tiny version of OpenCV 4.4.0:
 	- armeabi-v7a: **3.1 MB** (original: 10.1 MB)
@@ -142,6 +143,7 @@ All errors are returned to app using `fun onError(error: DocumentScannerErrorMod
 * [Compressor](https://github.com/zetbaitsu/Compressor)
 * [RxPermissions](https://github.com/tbruyelle/RxPermissions)
 * Inspiration from [mayuce](https://github.com/mayuce/AndroidDocumentScanner), [adityaarora1](https://github.com/adityaarora1/LiveEdgeDetection) and [hannesa2](https://github.com/hannesa2/LiveEdgeDetection)
+* [Document scanner from zynkware](https://github.com/zynkware/Document-Scanning-Android-SDK)
 
 
 ## License
