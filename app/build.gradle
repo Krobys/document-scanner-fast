@@ -66,6 +66,7 @@ dependencies {
     implementation 'id.zelory:compressor:3.0.1'
 }
 
+// gradle task: publishToMavenLocal
 project.afterEvaluate {
     publishing {
         publications {
