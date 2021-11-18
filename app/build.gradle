@@ -5,8 +5,8 @@ apply plugin: 'maven-publish'
 
 group="com.krobys"
 
-def libraryVersionCode = 103
-def libraryVersionName = "1.0.3"
+def libraryVersionCode = 100
+def libraryVersionName = "1.0.0"
 
 android {
     compileSdkVersion 31
@@ -76,7 +76,7 @@ project.afterEvaluate {
                 // values used for local maven repo, jitpack uses github release:
                 groupId 'com.github.krobys'
                 artifactId 'Fast-Document-Scanner'
-                version '1.0.3'
+                version libraryVersionName
             }
         }
     }
