@@ -141,7 +141,7 @@ All errors are returned to app using `fun onError(error: DocumentScannerErrorMod
 
 ## License
 
-	Copyright 2020 ZynkSoftware SRL
+	Copyright 2021 Krobys
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 	associated documentation files (the "Software"), to deal in the Software without restriction,
