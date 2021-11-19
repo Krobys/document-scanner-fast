@@ -96,10 +96,8 @@ AppScanActivity:
 
 #### ScannerResults
 
-Document Scanner library will return image files using `fun onSuccess(scannerResults: ScannerResults)`. ScannerResults contains 3 files:
-- **originalImageFile** - image from camera (with Configuration declared in your Application class).
-- **croppedImageFile** - cropped/document image
-- **transformedImageFile** - croppedPhotoFile with grayscale filter or null if grayscale is not applied
+Document Scanner library will return image files using `fun onSuccess(scannerResults: ScannerResults)`. ScannerResults contains 1 file:
+- imageFile
 
 #### Error Handling
 All errors are returned to app using `fun onError(error: DocumentScannerErrorModel)`
